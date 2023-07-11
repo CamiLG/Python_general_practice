@@ -16,6 +16,7 @@ else:
 
 
 # Example of break and continue usage
+
 for letter in word:
     if letter == 'o':
         break
