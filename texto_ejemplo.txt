@@ -1,0 +1,28 @@
+AplicationID: 
+- AppExample583
+
+Servicios:
+- API web
+- Gestión de base de datos
+- Autenticación de usuarios
+- Envío de correos electrónicos
+
+Dependencias principales:
+- Flask: Framework web para crear la API.
+- SQLAlchemy: ORM para interactuar con la base de datos.
+- Flask-Login: Extensión para manejar la autenticación de usuarios.
+- Flask-Mail: Extensión para enviar correos electrónicos.
+- psycopg2: Adaptador de base de datos para PostgreSQL.
+- Jinja2: Motor de plantillas para generar HTML.
+
+Estructura de archivos:
+- mi_aplicacion/
+  - __init__.py
+  - app.py
+  - models.py
+  - routes.py
+  - forms.py
+  - templates/
+  - static/
+
+Archivo requirements.txt:
